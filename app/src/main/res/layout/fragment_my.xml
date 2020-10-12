@@ -1,0 +1,150 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.admin.ccb.fragment.MyFragment">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="245dp"
+        android:background="@mipmap/mybg1"
+        >
+
+        <com.example.admin.ccb.fragment.ui.CircleImageView
+            android:id="@+id/ivPhoto"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="11dp"
+            android:layout_marginTop="@dimen/dp80"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:src="@mipmap/qq"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp90"
+            android:layout_marginLeft="@dimen/dp120"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="用户昵称：" />
+
+            <TextView
+                android:id="@+id/username1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp110"
+            android:layout_marginLeft="@dimen/dp120"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="邀请码：" />
+
+            <TextView
+                android:id="@+id/wxname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp130"
+            android:layout_marginLeft="@dimen/dp120"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="余额：" />
+
+            <TextView
+                android:id="@+id/usermobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/tvSelectTime"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:text="参与的抽奖"
+        android:textColor="@color/defaultTextview"
+        android:textSize="15dp"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="@dimen/side_distance"
+        />
+    <View
+        android:layout_marginLeft="@dimen/side_distance"
+       style="@style/Line_e0e0e0_Horizontal"/>
+    <TextView
+        android:id="@+id/tvSelectLocation"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:text="加入会员"
+        android:textColor="@color/defaultTextview"
+        android:textSize="15dp"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="@dimen/side_distance"
+        />
+    <View
+        android:layout_marginLeft="@dimen/side_distance"
+        style="@style/Line_e0e0e0_Horizontal"/>
+    <TextView
+        android:id="@+id/tvKefu"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:text="客服"
+        android:textColor="@color/defaultTextview"
+        android:textSize="15dp"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="@dimen/side_distance"
+        />
+    <View
+        android:layout_marginLeft="@dimen/side_distance"
+        style="@style/Line_e0e0e0_Horizontal"/>
+    <TextView
+        android:id="@+id/tvRes"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:text="商务"
+        android:textColor="@color/defaultTextview"
+        android:textSize="15dp"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="@dimen/side_distance"
+        />
+    <View
+        android:layout_marginLeft="@dimen/side_distance"
+        style="@style/Line_e0e0e0_Horizontal"/>
+    <TextView
+        android:id="@+id/tvSet"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:text="设置"
+        android:textColor="@color/defaultTextview"
+        android:textSize="15dp"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="@dimen/side_distance"
+        />
+    <View
+        android:layout_marginLeft="@dimen/side_distance"
+        style="@style/Line_e0e0e0_Horizontal"/>
+</LinearLayout>

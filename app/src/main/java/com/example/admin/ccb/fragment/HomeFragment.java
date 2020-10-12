@@ -339,6 +339,7 @@ public class HomeFragment extends BaseFragment {
         upView.setViews(views);
     }
 
+    //首页中部button 数据绑定
     public void setMenu(List<String> menu) {
         LayoutAnimationController controller = new LayoutAnimationController(AnimationUtils.loadAnimation(getActivity(), R.anim.menu_anim));
         menuRecyclerView.setLayoutAnimation(controller);

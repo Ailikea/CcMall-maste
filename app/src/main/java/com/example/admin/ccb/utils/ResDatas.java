@@ -91,13 +91,13 @@ public class ResDatas implements Serializable {
 
     public static String searchLists[] = {"ins超火的裤子", "猕猴桃 奇异果", "香蕉", "2018最新款牛仔裤", "萌萌哒面包服", "我的客服", "时尚运动套装女春秋款", "银丝亮边！", "拼接时尚运动款", "谢", "进口零食送女男友", "脉动"};
 
-    public static String menus[] = {"抢购", "我的快递", "记账本", "天天有料", "我的客服", "智能设备"};
+    public static String menus[] = {"精选", "新开", "将止", "红包", "抽奖", "参与"};
 
     public static String classifys[] = {"推荐分类", "CB超市", "国际名牌", "奢侈品", "全球购", "男装", "女装", "童装", "男鞋", "女鞋", "内衣配饰", "箱包手袋", "美妆个护", "钟表珠宝", "休闲养生"};
 
     public static Integer spcimangs[] = {R.mipmap.spc1, R.mipmap.spc2, R.mipmap.spc3, R.mipmap.spc4, R.mipmap.spc5, R.mipmap.spc6, R.mipmap.spc7, R.mipmap.spc8, R.mipmap.spc9};
 
-    public static Integer icon_lol_imangs[] = {R.mipmap.lol1, R.mipmap.lol2, R.mipmap.lol3, R.mipmap.lol4, R.mipmap.lol5, R.mipmap.lol6, R.mipmap.lol7, R.mipmap.lol8, R.mipmap.lol9, R.mipmap.lol_10};
+    public static Integer icon_lol_imangs[] = {R.mipmap.lol1, R.mipmap.lol2, R.mipmap.lol3, R.mipmap.lol4, R.mipmap.lol5, R.mipmap.lol6};
 
     public static Integer iconimangs[] = {R.mipmap.lol1, R.mipmap.lol2, R.mipmap.lol3, R.mipmap.lol4, R.mipmap.lol5, R.mipmap.lol6, R.mipmap.lol7, R.mipmap.lol8, R.mipmap.lol9, R.mipmap.lol_10, R.mipmap.lol_1, R.mipmap.icon_gif1, R.mipmap.icon_gif2, R.mipmap.icon_gif3};
 

@@ -358,8 +358,11 @@ public class HomeFragment extends BaseFragment {
 
     }
 
+
+
+
     private void showVideoDialog() {
-        String[] datas = {"抖音Style", "列表Style", "自动播放列表Style"};
+        String[] datas = {"抖音Style"};
         new SingleSelectDialog.Builder(mContext).setItems(datas, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
